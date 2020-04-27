@@ -1,0 +1,61 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 140vh;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+section.s1 {
+    display: block;
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/hello-friend-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 30px;
+    float: left;
+    position: absolute;
+    margin: 0 30px;
+
+}
+
+header {
+    padding-top: 20px;
+    margin: 0 30px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 ;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+   
+    font-size: 28px;
+    padding:  13px 50px;
+    text-decoration: none;
+}
+
+nav ul li a.ativo{
+    background-color: #000000 
+}
